@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jackson Hinks">
+    <title>Black Goose Bistro | Community</title>
+    <link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" type="image/png" href="images/mug_coffee_fav.png">
+</head>
+<body>
+    <header>
+        <h1>Black Goose Bistro</h1>
+        <p>Community programs sponsored by the bistro.</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menus</a></li>
+            <li><a href="breakfast.html">Breakfast</a></li>
+            <li><a href="lunch.html">Lunch</a></li>
+            <li><a href="dinner.html">Dinner</a></li>
+            <li><a href="catering.html">Catering</a></li>
+            <li><a class="active" href="community.html">Community</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Community Support</h2>
+            <p>Black Goose Bistro is not just a place to eat, the business also sponsors a couple small programs that give people a way to help locally without making it too complicated.</p>
+        </section>
+
+        <!-- This part is the required CSS Grid layout for the Community page. -->
+        <div class="community-grid">
+            <article class="program-card">
+                <h2>Good Neighbor Voter Table</h2>
+
+                <div class="jquery-gallery" aria-label="Good Neighbor Voter Table image gallery">
+                    <img class="gallery-main" src="images/vote-help.png" alt="Volunteer table helping people register to vote">
+                    <div class="gallery-thumbs">
+                        <img class="gallery-thumb active-thumb" src="images/vote-help.png" alt="Volunteer table helping people register to vote">
+                        <img class="gallery-thumb" src="images/civic-information.png" alt="Civic information booth with forms and instructions">
+                        <img class="gallery-thumb" src="images/volunteer-signup.png" alt="Volunteer sign-up area for voter registration support">
+                    </div>
+                </div>
+
+                <p>The Good Neighbor Voter Table is a voter registration support program hosted during select weekends at the bistro. Guests can pick up basic registration information, ask volunteers where to find official forms, and learn about deadlines for upcoming elections. The point is not to tell anyone how to vote, it is just to make the process feel less confusing for people who already want to participate.</p>
+            </article>
+
+            <article class="program-card">
+                <h2>Warm Plates, Kind Notes</h2>
+
+                <div class="jquery-gallery" aria-label="Warm Plates, Kind Notes image gallery">
+                    <img class="gallery-main" src="images/hospital-meals.png" alt="Packed meals being prepared for local hospital patients">
+                    <div class="gallery-thumbs">
+                        <img class="gallery-thumb active-thumb" src="images/hospital-meals.png" alt="Packed meals being prepared for local hospital patients">
+                        <img class="gallery-thumb" src="images/hospital-gifts.png" alt="Small gift baskets prepared for hospital patients">
+                        <img class="gallery-thumb" src="images/care-volunteers.png" alt="Hospital care volunteers delivering meals and gifts">
+                    </div>
+                </div>
+
+                <p>Warm Plates, Kind Notes delivers meals and small gifts to patients at a local hospital. Bistro staff and community volunteers help pack comfort meals, write short notes, and prepare simple gift baskets with small items that can make a hospital stay feel a little less lonely. It is a practical project, and that is why it works pretty well, since people can help without needing a huge budget.</p>
+            </article>
+
+
+        </div>
+    </main>
+
+    <footer>
+      <p>Black Goose Bistro</p>
+        <p>Community programs are sponsored locally and updated throughout the year.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/community-gallery.js"></script>
+</body>
+</html>
