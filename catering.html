@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jackson Hinks">
+    <title>Black Goose Bistro | Catering</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Black Goose Bistro</h1>
+        <p>Catering meals for meetings, parties, and special local events.</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menus</a></li>
+            <li><a href="breakfast.html">Breakfast</a></li>
+            <li><a href="lunch.html">Lunch</a></li>
+            <li><a href="dinner.html">Dinner</a></li>
+            <li><a class="active" href="catering.html">Catering</a></li>
+            <li><a href="community.html">Community</a></li>
+        </ul>
+    </nav>
+
+    <main class="container my-4">
+        <!-- Bootstrap is used here. The columns stack on smaller screens, which is why I used rows and cols instead of plain divs. -->
+        <section class="row align-items-center g-4 mb-4">
+            <div class="col-lg-7">
+                <h2>Catering Services</h2>
+                <p>Our team of culinary experts and service professionals offers an outstanding selection of food and beverages.</p>
+                <p>From classic breakfast and lunch buffets to gourmet hors d’oeuvres and elegant waiter-served dinners, we  creat&nbsp; meals that complement your taste buds and leaves a lasting impression.</p>
+                <p class="lead">To schedule catering for events, call <strong>(555) 555-5555</strong> or email <a href="mailto:BlackGoose@gmail.com">BlackGoose@gmail.com</a>.</p>
+
+            </div>
+
+            <div class="col-lg-5">
+                <img class="img-fluid rounded-4 shadow" src="images/catering-buffet.jpg" alt="Illustration of a catered buffet table with fresh food">
+            </div>
+        </section>
+
+        <section class="row align-items-center g-4 mb-4">
+            <div class="col-md-5">
+                <img class="img-fluid rounded-4 shadow" src="images/catering-dinner.jpg" alt="Illustration of a formal served dinner tray for catering">
+            </div>
+            <div class="col-md-7">
+                <h2>Meal Options</h2>
+                <p>This is mostly just a placeholder for options that could be included i&nbsp; the Bistro.&nbsp;</p>
+
+                <div class="vegetarian-legend">
+                    <img class="veg-icon" src="images/vegetarian-symbol.svg" alt="Green leaf vegetarian symbol">
+                    <span>The green leaf marks vegetarian options. These items contain no meat, but they may include cheese or eggs.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Three catering options. I kept these as cards since Bootstrap cards fit this part of the assignment pretty well. -->
+        <section class="row g-4">
+            <div class="col-md-4">
+                <article class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <h3 class="card-title">Morning Meeting Buffet</h3>
+                        <p class="card-text"><strong>Salad:</strong> Fresh Fruit Salad</p>
+                        <p class="card-text"><strong>Main:</strong> Egg and Bacon Breakfast Bake</p>
+                        <p class="card-text">This one would work for trainings, staff meetings, or a basic morning event where people need something filling.</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-4">
+                <article class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <h3 class="card-title d-flex gap-2 align-items-center">
+                            <img class="veg-icon" src="images/vegetarian-symbol.svg" alt="Vegetarian symbol">Garden Table Lunch
+                        </h3>
+                        <p class="card-text"><strong>Salad:</strong> Harvest Apple Salad</p>
+                        <p class="card-text"><strong>Main:</strong> Caprese Focaccia Sandwich</p>
+                        <p class="card-text">A vegetarian-friendly choice with no meat. It is lighter than the dinner package, but it still feels like a full lunch.</p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-4">
+                <article class="card h-100 shadow-sm border-0">
+                    <div class="card-body">
+                        <h3 class="card-title">Evening Bistro Dinner</h3>
+                        <p class="card-text"><strong>Salad:</strong> Caesar Salad</p>
+                        <p class="card-text"><strong>Main:</strong> Herb-Roasted Chicken with Potatoes</p>
+                        <p class="card-text">This is the more formal option, meant for receptions, family parties, or employee appreciation nights.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Black Goose Bistro</p>
+        <p>Catering available by appointment.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
